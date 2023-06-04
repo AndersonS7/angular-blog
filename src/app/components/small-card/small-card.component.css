@@ -20,6 +20,16 @@
     align-items: center;
 }
 
+.small-card__title>h1 {
+    font-size: 25px;
+    transition: .3s;
+    font-weight: 400;
+}
+
+.small-card__title>h1:hover {
+    font-size: 28px;
+}
+
 .container__small-card__separator {
     margin-top: 15px;
 }

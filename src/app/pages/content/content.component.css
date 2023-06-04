@@ -1,0 +1,53 @@
+.container__content {
+    width: 50%;
+    height: 100vh;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+}
+.content__title>h1 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.content__title>hr {
+    margin-top: 2rem;
+}
+
+.content__cover>img {
+    border: .3rem solid rgb(144, 144, 144);
+    border-radius: .3rem;
+    width: 40rem;
+    min-width: 40rem;
+}
+
+.content__description {
+    margin-top: 2.5rem;
+}
+
+.content__description>p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: gray;
+    width: 90%;
+    margin: auto;
+}
+
+.content__btn-return {
+    margin-top: 3rem;
+}
+
+.content__btn-return>a {
+    color: yellowgreen;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.content__btn-return>a:hover {
+    color: white;
+    font-size: 1.5rem;
+}
